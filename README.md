@@ -65,8 +65,8 @@ After generating the wrapper for python code, the above function in c then can b
 
 <br />
 
-6. With the help with ceedling, building and linking the source and object file with gcc can be very easy. You will only have to modify the *project.yml*. 
-<br />
+6. With the help with ceedling, building and linking the source and object file with gcc can be very easy. You will only have to modify the `project.yml`. 
+
     * Enable the release build and modify the name of the release output to `_example.so`
     ```yaml
     :project:
